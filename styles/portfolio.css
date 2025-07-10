@@ -1,0 +1,286 @@
+
+.tiktok-sans-normal {
+  font-family: "TikTok Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 700; */
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100;
+}
+
+
+.secondary-bg{
+
+    background-color: #FFF8F3 ;
+}
+/* header  */
+
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    box-shadow: 0px 10px 15px #47474729;
+   
+
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 120px;
+    
+    
+
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0 100px;
+}
+
+.text-primary{
+    color: #FD6E0A;
+    
+}
+
+nav ul li {
+   list-style: none;
+   margin-right: 51px;
+   
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.btn-primary{
+    background-color: #FD6E0A ;
+    font-weight: 200;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 10px 15px #47474729;
+}
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-content{
+    width: 585px;
+    height: 356px;
+    margin: 0 35px 0 230px;
+}
+
+.banner-greetings{
+font-size: 45px;
+    color: #474747
+    ;
+    font-weight: 600;
+}
+
+.banner-title{
+    color: #181818;
+    font-size: 65px;
+    font-weight: bold;
+
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+}
+.banner-profile{
+    width:532px;
+    height: 676px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about me  */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px #47474729;
+
+
+}
+
+.about-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.item-description{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 600
+    ;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    width: 909px;
+    margin: 0 auto;
+}
+
+/* skills section */
+
+.skills{
+    /* padding: 0px 150px; */
+    /* text-align: center; */
+    
+    
+    
+} 
+.skills-container{
+    /* width: 57px;
+    height: 27px; */
+    
+    display: flex ;
+    gap: 24px
+    ;
+
+
+}
+
+.skill{
+    
+    padding: 35px;
+    box-shadow: 0px 10px 15px #47474729;
+    border-radius: 15px;
+}
+
+
+/* resume */
+
+.resume{
+    margin: 0 auto;
+    padding: 35px;
+    box-shadow: 0px 10px 15px #47474729;
+    border-radius: 15px;
+    
+}
+
+.resume-container{
+display: flex;
+gap: 71px
+;
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 800;
+    color: #474747;
+}
+
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 600
+    ;
+}
+
+.experience-sub-title{
+    color: #757575 ;
+    font-size: 20px;
+}
+
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+
+.resume-download{
+    margin-top: 130px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 130px;
+}
+
+
+.footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+    margin-top: 130px;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"]{
+
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+    box-shadow: 0px 10px 15px #47474712;
+
+
+}
+footer input[type="submit"]{
+    display: block;
+    margin-top: 24px;
+}
+footer textarea{
+    border: none;
+    width: 461px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px #47474712;
+
+}
+
+.section-title-footer{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    
+
+}
